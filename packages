@@ -1,0 +1,23 @@
+pacman:
+btop
+kitty
+hyprlock
+nautilus
+wofi
+
+
+AUR:
+cava
+unimatrix-git
+lumafly
+webcord
+zen-browser
+heroic-games-launcher
+aseprite
+
+Some pacman packages may be in AUR and some AUR packages may be in pacman
+
+Flatpak:
+com.valvesoftware.Steam
+org.audacityteam.Audacity
+dev.vencord.Vesktop
