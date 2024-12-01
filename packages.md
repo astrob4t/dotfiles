@@ -1,4 +1,4 @@
-pacman:
+pacman:    <br/>
 btop    <br/>
 kitty    <br/>
 hyprlock    <br/>
