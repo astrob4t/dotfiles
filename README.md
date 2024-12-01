@@ -14,7 +14,7 @@ I do prefer hyprland as a tiling window manager and for it to be quite bare bone
 
 ### This will walk you through installing this from either no desktop environment but will still work if you are in one, there are certain instructions for people in a DE.
 
-## Step one
+## Step 1
 ### Install the packages listed below
 **From pacman:**
 hyprland hyprpaper hyprlock wofi kitty kate firefox waybar swaync nautilus
