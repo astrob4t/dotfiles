@@ -7,7 +7,7 @@ This includes putting it in something paid.(idk why you would do either though)
 
 I do prefer hyprland as a tiling window manager and for it to be quite bare bones so this will not turn it into a floating window manager and will only add "*bloat*" that will effect you when you launch them.
 
-# [DISCLAIMER](#disclaimer)
+# [DISCLAIMER](#important-disclaimer)
 # Installation
  
 
@@ -93,6 +93,6 @@ Now add this to the bottom of that config:
 
 Now return to the normal steps.
 
-<a name="disclaimer"></a>
+<a name="important-disclaimer"></a>
 # Disclaimer
 ### These instructions are made for Arch Linux and were made from memory at 10 PM by a 14 year old with way to much time and knowledge on his hands
