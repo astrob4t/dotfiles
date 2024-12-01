@@ -7,10 +7,11 @@ wofi    <br/>
 cliphist    <br/>
 kate    <br/>
 sl    <br/>
+hyprpolkitagent
 
 To download all at once, run this:
 ###
-    sudo pacman -S btop kitty hyprlock nautilus wofi cliphist kate sl
+    sudo pacman -S btop kitty hyprlock nautilus wofi cliphist kate sl hyprpolkitagent
 
 AUR:
 cava    <br/>
