@@ -1,4 +1,6 @@
-pacman:    <br/>
+## Recommended packages for dotfiles
+
+### pacman:    <br/>
 btop    <br/>
 kitty    <br/>
 hyprlock    <br/>
@@ -12,7 +14,7 @@ To download all at once, run this:
 ###
     sudo pacman -S btop kitty hyprlock nautilus wofi cliphist kate sl
 
-AUR:
+### AUR:
 cava    <br/>
 unimatrix-git    <br/>
 lumafly    <br/>
@@ -27,7 +29,7 @@ To download all at once, run this:
 ###
     yay -S cava unimatrix-git lumafly discord-canary zen-browser heroic-games-launcher aseprite hyprpolkitagent
 
-Flatpak:
+### Flatpak:
 com.valvesoftware.Steam    <br/>
 org.audacityteam.Audacity    <br/>
 
