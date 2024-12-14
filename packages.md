@@ -9,10 +9,11 @@ wofi    <br/>
 cliphist    <br/>
 kate    <br/>
 sl    <br/>
+xdg-desktop-portal-hyprland <br/>
 
 To download all at once, run this:
 ###
-    sudo pacman -S btop kitty hyprlock nautilus wofi cliphist kate sl
+    sudo pacman -S btop kitty hyprlock nautilus wofi cliphist kate sl xdg-desktop-portal-hyprland
 
 ### AUR:
 cava    <br/>
