@@ -21,7 +21,7 @@ hyprland hyprpaper hyprlock wofi kitty kate firefox waybar swaync nautilus
 
 or run this command
 ###
-    sudo pacman -Syu hyprland hyprpaper hyprlock wofi kitty kate firefox waybar swaync nautilus
+    sudo pacman -Syu hyprland hyprpaper hyprlock wofi kitty kate firefox waybar swaync nautilus xdg-desktop-portal-hyprland
 
 It might ask for your password partway through so try to keep an eye on it, peek over at it every 15-30 seconds or watch it like a hawk.
 
