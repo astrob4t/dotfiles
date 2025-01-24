@@ -11,10 +11,11 @@ kate    <br/>
 sl    <br/>
 xdg-desktop-portal-hyprland <br/>
 flatpak <br/>
+hyprpicker <br/>
 
 To download all at once, run this:
 ###
-    sudo pacman -S btop kitty hyprlock nautilus wofi cliphist kate sl xdg-desktop-portal-hyprland flatpak
+    sudo pacman -S btop kitty hyprlock nautilus wofi cliphist kate sl xdg-desktop-portal-hyprland flatpak hyprpicker
 
 ### AUR:
 cava    <br/>
