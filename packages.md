@@ -15,7 +15,7 @@ hyprpicker <br/>
 
 To download all at once, run this:
 ###
-    sudo pacman -S btop kitty hyprlock nautilus wofi cliphist kate sl xdg-desktop-portal-hyprland flatpak hyprpicker
+    sudo pacman -S btop ghostty hyprlock nautilus wofi cliphist kate sl xdg-desktop-portal-hyprland flatpak hyprpicker
 
 ### AUR:
 cava    <br/>
