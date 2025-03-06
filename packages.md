@@ -15,7 +15,7 @@ hyprpicker <br/>
 
 To download all at once, run this:
 ###
-    sudo pacman -S btop ghostty hyprlock nautilus wofi cliphist kate sl xdg-desktop-portal-hyprland flatpak hyprpicker
+    sudo pacman -S btop ttf-hack-nerd ghostty hyprlock nautilus wofi cliphist kate sl xdg-desktop-portal-hyprland flatpak hyprpicker
 
 ### AUR:
 cava    <br/>
@@ -30,7 +30,7 @@ hyprpolkitagent
 Yes, lumafly is the Hollow Knight modding app, I am leaving it in my config and here, deal with it.
 To download all at once, run this:
 ###
-    yay -S cava unimatrix-git lumafly discord-canary zen-browser heroic-games-launcher aseprite hyprpolkitagent
+    yay -S cava unimatrix-git lumafly discord-canary zen-browser heroic-games-launcher aseprite hyprpolkitagent hyprshot
 
 ### Flatpak:
 com.valvesoftware.Steam    <br/>
