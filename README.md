@@ -21,13 +21,13 @@ hyprland hyprpaper hyprlock wofi kitty kate firefox waybar swaync nautilus
 
 or run this command
 ###
-    sudo pacman -Syu hyprland hyprpaper hyprlock wofi ghostty kate firefox waybar swaync nautilus xdg-desktop-portal-hyprland hyprpicker
+    sudo pacman -Syu hyprland hyprpaper hyprlock wofi ttf-hack-nerd ghostty kate firefox waybar swaync nautilus xdg-desktop-portal-hyprland hyprpicker
 
-It might ask for your password partway through so try to keep an eye on it, peek over at it every 15-30 seconds or watch it like a hawk.
-
+<sub/> If you want to you can replace ttf-hack-nerd with nerd-fonts. <br/>
+It will require root password right after running.
 ## Step 2
 ### Entering hyprland and using the files
-*If you have a NVidia GPU, go to the [NVidia GPU section](#for-nvidia-gpus)* before proceeding
+<sub/>*If you have a NVidia GPU, go to the [NVidia GPU section](#for-nvidia-gpus)* before proceeding
 
 Here I will walk you through the process of getting the files and using them for the config with just the terminal but I would recommend opening the browser to copy some commands.
 
