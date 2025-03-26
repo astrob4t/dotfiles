@@ -1,188 +1,127 @@
+@import "mocha.css"; 
+
 * {
-    font-family: 'CaskaydiaCove Nerd Font Mono';
+    font-family: "MesloLGS Nerd Font Mono Bold";
     font-size: 16px;
+    min-height: 0;
     font-weight: bold;
 }
 
 window#waybar {
+    background: transparent;
+    background-color: @crust;
+    color: @overlay0;
+    transition-property: background-color;
+    transition-duration: 0.1s;
+    border-bottom: 1px solid @overlay1;
+}
+
+#window {
+    margin: 8px;
+    padding-left: 8;
+    padding-right: 8;
+}
+
+button {
+    box-shadow: inset 0 -3px transparent;
     border: none;
     border-radius: 0;
-    box-shadow: none;
-    text-shadow: none;
-    transition-duration: 0s;
-    color: rgba(235, 219, 178, 1);
-    background: rgba(40, 40, 40, 0.5);
 }
 
-.modules-left {
-    background: rgb(40, 40, 40);
-    border-radius: 15px;
-    margin: 0 5px;
-    padding: 0 5px;
-}
-
-.modules-center {
-    background: rgb(40, 40, 40);
-    border-radius: 15px;
-    margin: 0 5px;
-    padding: 0 5px;
-}
-
-.modules-right {
-    background: rgb(40, 40, 40);
-    border-radius: 15px;
-    margin: 0 5px;
-    padding: 0 5px;
-}
-
-#workspaces {
-    margin: 0 5px;
+button:hover {
+    background: inherit;
+    color: @mauve;
+    border-top: 2px solid @mauve;
 }
 
 #workspaces button {
-    padding: 0 8px;
-    color: #ebdbb2;
-    border: 3px solid rgba(9, 85, 225, 0);
-    border-radius: 10px;
-    min-width: 33px;
-}
-
-#workspaces button.visible {
-    color: #689d6a;
+    padding: 0 4px;
 }
 
 #workspaces button.focused {
-    border-top: 3px solid #7aa2f7;
-    border-bottom: 3px solid #7aa2f7;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: @rosewater;
+    border-top: 2px solid @rosewater;
+}
+
+#workspaces button.active {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: @mauve;
+    border-top: 2px solid @mauve;
 }
 
 #workspaces button.urgent {
-    background-color: #a96d1f;
-    color: white;
+    background-color: #eb4d4b;
 }
 
-#workspaces button:hover {
-    box-shadow: inherit;
-    border-color: #8ec07c;
-    color: #8ec07c;
-}
-
-/* Repeat style here to ensure properties are overwritten as there's no !important and button:hover above resets the colour */
-
-#workspaces button.focused {
-    color: #7aa2f7;
-}
-#workspaces button.focused:hover {
-    color: #bb9af7;
-}
-
-#custom-recorder {
-	font-size: 18px;
-	margin: 2px 7px 0px 7px;
-	color:#ee2e24;
-}
-
-#tray,
-#mode,
+#pulseaudio,
+#clock,
 #battery,
-#temperature,
 #cpu,
 #memory,
-#network,
-#pulseaudio,
-#idle_inhibitor,
-#sway-language,
+#disk,
+#temperature,
 #backlight,
-#custom-storage,
-#custom-cpu_speed,
-#custom-powermenu,
-#custom-spotify,
-#custom-weather,
-#custom-mail,
-#custom-media {
-    margin: 0px;
-    padding: 0 5px;
-}
-
-#cpu {
-    color: rgba(215, 153, 33, 1);
-}
-
-#memory {
-    color: rgba(69, 133, 136, 1);
-}
-
-#temperature {
-    color: rgba(204, 36, 29, 1);
-}
-
-#network {
-    color: rgba(254, 128, 25, 1);
-}
-
-#pulseaudio {
-    color: rgba(152, 151, 26, 1);
+#wireplumber,
+#tray,
+#network,
+#mode,
+#scratchpad {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 #clock {
-    padding: 0 5px;
-    color: rgba(104, 157, 106, 1);
+    color: @maroon;
+    border-bottom: 2px solid @maroon;
 }
 
-#backlight {
-    color: rgba(177, 98, 134, 1);
+#clock.date {
+    color: @mauve;
+    border-bottom: 2px solid @mauve;
+}
+
+#pulseaudio {
+    color: @blue;
+    border-bottom: 2px solid @blue;
+}
+
+#network {
+    color: @yellow;
+    border-bottom: 2px solid @yellow;
+}
+
+#idle_inhibitor {
+    margin-right: 12px;
+    color: #7cb342;
+}
+
+#idle_inhibitor.activated {
+    color: @red;
 }
 
 #battery {
-    color: rgba(152, 151, 26, 1);
+    color: @green;
+    border-bottom: 2px solid @green;
 }
 
-#battery.warning {
-    color: rgba(215, 153, 33, 1);
+/* If workspaces is the leftmost module, omit left margin */
+.modules-left>widget:first-child>#workspaces {
+    margin-left: 0;
 }
 
-#battery.critical {
-    color: rgba(204, 36, 29, 1);
+/* If workspaces is the rightmost module, omit right margin */
+.modules-right>widget:last-child>#workspaces {
+    margin-right: 0;
 }
 
-#battery.charging {
-    color: rgba(69, 133, 136, 1);
+#custom-vpn {
+    color: @lavender;
+    border-radius: 15px;
+    padding-left: 6px;
+    padding-right: 6px;
 }
-
-#custom-storage.warning {
-    color: rgba(255, 210, 4, 1);
-}
-
-#custom-storage.critical {
-    color: rgba(238, 46, 36, 1);
-}
-
-@keyframes blink {
-    to {
-        background-color: #ffffff;
-        color: black;
-    }
-}
-
-#power-profiles-daemon {
-    margin: 0 0px;
-    padding: 0 15px;
-    font-size: 20px;
-    border-radius: 50px;
-}
-
-#power-profiles-daemon.performance {
-    background-color: #f7768e;
-    color: #282828;
-}
-
-#power-profiles-daemon.balanced {
-    background-color: #7aa2f7;
-    color: #282828;
-}
-
-#power-profiles-daemon.power-saver {
-    background-color: #9ece6a;
-    color: #282828;
-}
-
