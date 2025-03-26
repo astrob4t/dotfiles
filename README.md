@@ -1,6 +1,6 @@
 # astro's dotfiles
 
-These are my dotfiles to be used by whoever wishes to.
+These are my dotfiles to be used by whoever wishes to, some of the stuff is written by me and other stuff is stolen from other people's dotfiles (mainly typecraft-dev/dotfiles).
 
 I won't be putting a license on this, just please don't make money on this.
 This includes putting it in something paid.(idk why you would do either though)
