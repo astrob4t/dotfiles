@@ -4,8 +4,9 @@ These are my dotfiles to be used by whoever wishes to, some of the stuff is writ
 
 I won't be putting a license on this, just please don't make money on this.
 This includes putting it in something paid.(idk why you would do either though)
+### Apache 2 license might be applied
 
-I do prefer hyprland as a tiling window manager and for it to be quite bare bones so this will not turn it into a floating window manager and will only add "*bloat*" that will effect you when you launch them.
+I do prefer hyprland as a tiling window manager and for it to be quite bare bones so this will not turn it into a floating window manager, though by definition, it will definitely bloat your linux install.
 
 # [DISCLAIMER](#important-disclaimer)
 # Installation
